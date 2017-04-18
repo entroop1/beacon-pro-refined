@@ -1,0 +1,242 @@
+:root {
+    --green: #62bb46;
+    --navy: #144576;
+    --blue: #3b9cfb;
+    --dark: #3c3b3a;
+    --medium: #818181;
+    --light: #e2e2e2;
+    --verylight: #f7f7f7;
+    --turq: #21bdb7;}
+
+@import{
+    url(//fonts.googleapis.com/css?family=Open+Sans)} 
+
+
+body{
+    margin:0 auto;
+    font-family: 'Open Sans';
+    overflow-x: hidden;}
+        
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin:0 auto;
+    align-items:center;
+    max-width:1370px;} 
+        
+/* BUTTON GENERAL */
+      
+.button{
+    height: 40px;
+    display:inline-block;
+    background-color: var(--green);
+    border-radius:4px;
+    text-align:center;
+    border: 1px solid;
+    border-color: var(--green);
+    padding-left:16px;
+    padding-right:16px;
+    }   
+      
+.button a{
+    box-sizing: border-box;
+    text-decoration:none;
+    color:white;
+    height:40px;
+    font-size:10pt;
+    text-transform: uppercase;
+    
+}        
+
+/*TYPO*/
+
+h1 {
+    font-weight:100;
+    font-size:42pt;
+    line-height:42pt;
+    margin:0}  
+      
+h2 {
+    font-weight:100;
+    font-size:28pt;
+    line-height:42pt;
+    margin:0}       
+
+h5 {
+    font-size:11pt;
+    margin:0;
+    font-weight: 600;}
+      
+p{
+    font-weight:200;
+    font-size:16pt;
+    color: var(--medium);}      
+      
+/* HEADER */
+
+    
+.site-header{
+    background-color:white;
+    position:fixed;
+    z-index: 6;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.25); 
+    height:70px;
+    box-sizing:border-box;
+    width:100%;
+    display:flex;
+    align-items:center;
+    align-content: space-between;}
+
+.header-wrapper{
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:1370px;} 
+
+.logo-header{
+    position:relative;
+    width: 150px;
+    left:0px;}
+
+ul#nav-links {
+    list-style:none;
+    float:right;
+    margin-right:0px; }
+          
+li.menu-item{
+    float:left;
+    padding-left:20px;}
+
+li.menu-item a{
+    text-decoration: none;
+    color: var(--dark);
+    height:70px;
+    padding-bottom:23px;
+    padding-top:23px;
+    padding-left:10px;}
+
+li.menu-item a:hover{
+    text-decoration: none;
+    color: var(--3c3b3a);
+    background-color:var(--verylight);}
+
+
+/* HERO */
+
+.hero-bg{
+    padding-top:15vh;
+    background-color:#eae8e9;
+    position:relative;
+    width:100%;
+    min-height:60vh;
+  } 
+
+.hero-img{
+    grid-column: 1 / 6;} 
+        
+.info-section{
+    grid-column: 8 / 11;
+    box-sizing: border-box;}        
+        
+    .add-to-cart{
+        padding-left:15px;
+        padding-right:15px;
+        grid-gap: 10px;
+        width:100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top:40px;
+        background-color: white;
+        border: 1px solid;
+        border-color: var(--light);} 
+        
+    .cart-form{
+        display:flex;}    
+        
+    .cart-form input {
+        width:40%;
+        box-sizing: border-box;    
+        height: 48px;
+        border: 1px solid;
+        border-color: var(--turq);
+        border-radius:4px;
+        margin-right:10px;}
+
+    .product-name{
+         margin:0px;}
+
+    .subtitle {
+        color: var(--turq);
+        text-transform: uppercase;}
+
+    .description {
+        margin-top: 20px;
+        font-size:20pt;
+        font-weight:100;
+        color: var(--medium)}  
+
+    .cart-price{
+        font-size: 36px;
+        font-weight: 200;    
+        padding-bottom: 40px;}
+
+    .certificates{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom:50px;
+}  
+
+    .certificates img{
+        width: auto;
+        height: 100%;}        
+
+    .button.add {
+        width:60%;
+        box-sizing: border-box;
+        height:48px;
+        background-color: var(--turq);
+        border:0px;
+        padding-top:0px;}
+
+    .button.add a{
+        height:48px;
+        line-height:48px;}
+
+/* Battery Life Module */
+
+.battery-life{
+    position:relative;
+    padding-top:150px;
+    padding-bottom:200px;
+    max-width:1280px;
+    margin:0 auto;
+    height:800px;}
+        
+    .feature{
+        grid-column: 1 / 6;
+        grid-row: 1;
+        position:relative;
+        float:left;}  
+
+    .battery-chart{
+        margin-left:20%;
+        grid-column: 6 / 12;
+        grid-row: 1;
+
+        float:right;
+        margin-right:-900px; }
+
+    .beacon-cable{
+        position:Absolute;
+        z-index:2;
+        float:right;
+        padding-top: 100px;
+        padding-left:220px;}     
+
+    img.slider{
+        margin-left:100px;
+    }
+    .power-save img{
+        position:absolute;
+    }        
