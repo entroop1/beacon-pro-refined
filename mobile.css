@@ -1,12 +1,52 @@
 @media (max-width: 970px) {
-  .wrapper * {
-    grid-column: 2 / 11; }
+  .wrapper  {
+    width:90%;
+    display:flex;
+    flex-direction: column;}
     
-    .battery-chart{margin:0px 0 0 0;
-      grid-row: 1;}
+  /* BATTERY */ 
+    
+    .battery-chart{
+        width:100%;
+        grid-row: 1;
+        grid-column: 1 / 12;
+        margin-right:0px; }
     
     .feature{
-        grid-row: 2;
-        margin-top:50px;}    
+        width:90vw;}
+    
+    
+  /* COVERAGE */
+   
+    .coverage{
+        width:90%;
+        height:auto;
+    }
+    .feature-coverage{
+        width:90%;}  
+    
+    .coverage-img{
+        position:relative;
+                width:100vw;
+    }
+    
+  /* AMBIENT */
+    
+    .ambient{
+        height: 700px;
+        background: linear-gradient(to right, #144576 60%,#144576 60%);}
+    
+    .power-saving{
+        width:90vw;
+        height:100%;
+        position:static;
+        margin-left:0px;}
+    
+        
 
+    
+    
+    
+    
+    
 }

@@ -7,10 +7,20 @@
         <link rel="stylesheet" href="grid.css">
         <link rel="stylesheet" href="graph.css">        
         <link rel="stylesheet" href="mobile.css">
-
+        <link rel="stylesheet" href="parallax.css">
+        <link rel="stylesheet" href="aos-master/dist/aos.css">
+        <script src="vissense-0.10.0/lib/vissense.js"></script>        
+        <script src="aos-master/dist/aos.js"></script>
         
     </HEAD> 
     <BODY>
+    <script> AOS.init({
+      offset: 100,
+      duration: 500,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+    </script> 
         <div class="site-header">
             <div class="header-wrapper">
                 <div class="logo-header">
@@ -38,10 +48,10 @@
             </div>        
         </div>    
         <div class="site">
-                <div class="hero-bg">
+            <div class="hero-bg">
                     <div class="wrapper">
-                        <div class="hero-img">
-                            <img src="img/landing-image.png">
+                        <div class="hero-img" >
+                            <img src="img/landing-image.png" >
                         </div>
                         <div class="info-section">
                             <div class="product-name"><h1>Beaco Pro</h1></div>
@@ -67,7 +77,8 @@
             </div>
             <div class="battery-life">
                 <div class="wrapper">
-                    <div class="battery-chart">
+                    <h2>Long Battery Life</h2>    
+                    <div class="battery-chart" data-aos="fade" >
                         <div class="beacon-cable">
                              <img src="img/beacon-cable.png"/>
                         </div>   
@@ -103,8 +114,7 @@
                                  with 12h power saving</div>
                          </div>
                     </div> 
-                    <div class="feature">            
-                        <h2>Long Battery Life</h2>
+                    <div class="feature" >
                         <p>Equipped with three replaceable CR2477 batteries, the Beacon Pro can last a minimum of 5 years on standard settings.
                             Power the Beacon Pro via the built-in micro USB for endless power supply. </p>
                         <div class="button buy">
@@ -112,7 +122,107 @@
                         </div>                
                     </div>                     
                 </div>
+            </div>
+            <div class="coverage">
+                <div class="wrapper">
+                        <h2>Long Battery Life</h2> 
+                        <div class="coverage-img" data-aos="fade">
+                            <img src="img/coverage-signal.png" class="signal">
+                            <img src="img/coverage-statue.png" class="statue">
+                        </div>
+                        <div class="feature-coverage">
+                            <p>Equipped with three replaceable CR2477 batteries, the Beacon Pro can last a minimum of 5 years on standard settings.
+                                    Power the Beacon Pro via the built-in micro USB for endless power supply. </p>
+                            <div class="button buy">
+                                <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Buy Beacon Pro</a>
+                            </div>                
+                        </div>
+                </div>
+            </div>
+            <div class="ambient">
+                <div class="wrapper">
+                    <div class="feature-ambient">
+                    <h2>Save battery with Ambient Light Sensor and Calendar based power saving</h2>
+                    <p>Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p> 
+                    </div>  
+                    <div class="power-saving" data-aos="fade">
+                        <img src="img/power-save-blank.png" class="timeline">
+                        <img src="img/animation/Power_Save_00000.png" class="slider">
+                    </div>
+                </div>
+            </div>
+            <div class="locator">
+                <div class="wrapper">
+                    <div class="locator-img">
+                        <div class="par">
+                            <div class="layer-bg phone" data-depth='0' data-type='parallax'><img src="img/flying-beacon/phone.png"></div>
+                            <div class="layer-1 beacon" data-depth='0.07 ' data-type='parallax'><img src="img/flying-beacon/1.png"></div>
+                            <div class="layer-2 beacon" data-depth='0.15' data-type='parallax'><img src="img/flying-beacon/2.png"></div>
+                            <div class="layer-3 beacon" data-depth='0.25' data-type='parallax'><img src="img/flying-beacon/3.png"></div>
+                        </div>
+                    </div>
+                    <div class="feature-locator">
+                        <h2>Save battery with Ambient Light Sensor and Calendar based power saving</h2>
+                        <p>Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p>
+                    </div>
+                </div>
+            </div> 
+            <div class="spacer">
+                <div class="wrapper" >
+                    <img src="img/spacer_1.png"  data-aos="fade">
+                </div>
+            </div>
+            <div class="mounting">
+                <div class="wrapper">
+                    <div class="feature-mounting">
+                         <h2>Mounting Flexibility</h2>
+                         <p>Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p>
+                    </div> 
+                    <div class="mount-video"  data-aos="fade" >
+                        <video id="myVideo">
+                            <source src="img/klapka2.mp4">
+                        </video>
+                    </div>                    
+                </div>    
+            </div>
+            <div class="weather">
+                <div class="wrapper">
+                   <div class="feature-weather" >
+                         <h2>Mounting Flexibility</h2>
+                         <p>Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p>
+                    </div>
+                    <div class="weather-img" data-aos="fade">
+                        <img src="img/water.png"
+                    </div>
+                </div>
+            </div>
+        </div> 
+            <div class="ble">
+                <div class="wrapper">
+                    <div class="feature-ble">
+                            <h2>Bluetooth 5 ready</h2>
+                            <p class="white">Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p>
+                    </div>
+                    <div class="ble-img">
+                        <img src="img/ble_5_b.png"
+                    </div>
+                </div>        
+            </div>
             </div>    
-        </div>    
+        <script src="js/index.js"></script>
+        <script id="jsbin-javascript">
+        var myVideo = document.getElementById('myVideo');
+
+        VisSense.VisMon.Builder(VisSense(myVideo, { fullyvisible: 0.75 }))
+        .on('fullyvisible', function(monitor) {
+          myVideo.play();
+        })
+        .on('hidden', function(monitor) {
+          myVideo.pause();
+
+        })
+        .build()
+        .start();
+        </script>
     </BODY>
 </HTML>    

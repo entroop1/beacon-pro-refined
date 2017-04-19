@@ -1,0 +1,155 @@
+@keyframes grow {
+  0%   { width: 0; }
+  100% { width: 1; }
+}
+
+
+
+@keyframes grow1 {
+  0%   { width: 0; }
+  100% { width: 20%; }
+}
+
+@keyframes grow1-ps {
+  0%   { width: 0; }
+  100% { width: 15%; }
+}
+
+@keyframes grow2 {
+  0%   { width: 0; }
+  100% { width: 5%; }
+}
+
+@keyframes grow2-ps {
+  0%   { width: 0; }
+  100% { width: 5%; }
+}
+
+.graf {
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 40px;
+    font-size:10pt;
+    text-transform: uppercase;
+    }
+
+.year {
+    margin-left:20px;
+}
+
+.settings-txt{
+    line-height:10pt;
+    height:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;}
+
+
+.usb{
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    
+
+}
+
+.usb2{
+width: 100%;
+display:flex;
+justify-content: flex-start;    
+}
+
+.usb3{
+width: 100%;
+display:flex;
+justify-content: flex-start;    
+}
+
+.opis{
+    width: 150px;
+    border-right: 1px solid;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    border-color:#e2e2e2;}
+
+
+.chart-1 {
+    color:white;
+    animation: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    height:40px;
+    width: 60%;
+    background-color:#62bb46;}
+
+
+.chart-2 {
+    color:white;
+    animation: grow1;
+    animation-duration: 1s;
+    animation-delay:.5s;
+    animation-fill-mode: forwards;
+    height:40px;
+    width: 00%;
+    background-color:#22bdb7;
+}
+
+.chart-2-power-save {
+    color:white;
+    animation: grow1-ps;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:1s;
+    height:40px;
+    width: 0%;
+    background-color:#269994;}
+
+
+.chart-3 {
+    color:white;
+    animation: grow2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:1s;
+    height:40px;
+    width:0;
+    background-color:#22bdb7;}
+
+.chart-3-power-save {
+    color:white;
+    animation: grow2-ps;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay:1s;
+    height:40px;
+    width: 0%;
+    background-color:#269994;}
+
+.no-power-save{
+float:left;
+margin-right:20px;}
+
+.legend{
+margin-left:150px;
+margin-top:50px;
+font-size:8pt;}
+
+.legend-color1{
+margin-right:6px;        
+float:left;    
+width:16px;
+height:16px;
+border-radius:4px;
+background-color:#22bdb7;}
+
+.legend-color2{
+margin-right:6px;    
+float:left;
+width:16px;
+height:16px;
+border-radius:4px;
+background-color:#269994;}
