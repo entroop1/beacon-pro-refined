@@ -73,6 +73,11 @@ h5 {
     font-size:11pt;
     margin:0;
     font-weight: 600;}
+
+h6 {
+    font-size:9pt;
+    margin:0;
+    font-weight: 600;}        
       
 p{
     font-weight:200;
@@ -81,7 +86,8 @@ p{
       
 /* HEADER */
 
-    
+  
+        
 .site-header{
     background-color:white;
     position:fixed;
@@ -147,8 +153,8 @@ li.menu-item a:hover{
     box-sizing: border-box;}        
         
     .add-to-cart{
-        padding-left:15px;
-        padding-right:15px;
+        padding-left:32px;
+        padding-right:32px;
         grid-gap: 10px;
         width:100%;
         margin-top: 40px;
@@ -159,7 +165,8 @@ li.menu-item a:hover{
         border-color: var(--light);} 
         
     .cart-form{
-        display:flex;}    
+        display:flex;
+        margin-top:8px;}    
         
     .cart-form input {
         width:40%;
@@ -184,6 +191,7 @@ li.menu-item a:hover{
         color: var(--medium)}  
 
     .cart-price{
+        margin-top:20px;
         font-size: 36px;
         font-weight: 200;    
         padding-bottom: 40px;}
@@ -218,7 +226,7 @@ li.menu-item a:hover{
     padding-top:100px;
     max-width:1280px;
     margin:0 auto;
-    height:600px;}
+    height:500px;}
         
     .feature{
         grid-column: 1 / 6;
@@ -588,4 +596,8 @@ grid-column: 1 / 12;}
 .bottom{
     margin-top:100px;
     background: linear-gradient(to top, #3c3b3a 50%,#ffffff 50%)
-}        
+}   
+        
+.section-icon{
+width:27px;
+height:28px;}        
