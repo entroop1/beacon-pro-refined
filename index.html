@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="aos-master/dist/aos.css">
         <script src="vissense-0.10.0/lib/vissense.js"></script>        
         <script src="aos-master/dist/aos.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
         
     </HEAD> 
     <BODY>
@@ -78,7 +80,7 @@
             <div class="battery-life">
                 <div class="wrapper">
                     <h2>Long Battery Life</h2>    
-                    <div class="battery-chart" data-aos="fade" >
+                    <div class="battery-chart" >
                         <div class="beacon-cable">
                              <img src="img/beacon-cable.png"/>
                         </div>   
@@ -147,7 +149,9 @@
                     </div>  
                     <div class="power-saving" data-aos="fade">
                         <img src="img/power-save-blank.png" class="timeline">
-                        <img src="img/animation/Power_Save_00000.png" class="slider">
+                        <img class="animated slider" interval="50" max="173" pattern="img/animation/anima (###).png">
+
+
                     </div>
                 </div>
             </div>
@@ -340,7 +344,41 @@
             </div>   
             <div class="tech-spec">
             </div>
-        </div>    
+        </div>  
+        <script>
+        function animateImage(Index) {
+    $("img.animated:eq(" + Index + ")").each(function (Index) {
+        if (!$(this).is(":visible")) {
+            var intervalID = parseInt($(this).attr("intervalid"));
+            clearInterval(intervalID);
+        } else {
+            var max = parseInt($(this).attr("max"));
+            var pattern = $(this).attr("pattern");
+            var index = parseInt($(this).attr("index"));
+            index++;
+            if (index > max) {
+                index = 1;
+            }
+            var src = pattern.replace("###", index);
+            $(this).attr("index", index);
+            $(this).attr("src", src);
+        }
+    });
+}
+
+function initialiseAnimatedImages() {
+    $("img.animated").each(function (Index) {
+        var interval = $(this).attr("interval");
+        $(this).attr("index", "0");
+        var intervalID = setInterval(function () { animateImage(Index); }, interval);
+        $(this).attr("intervalid", intervalID);
+    });
+}
+
+$(document).ready(function () {
+    initialiseAnimatedImages();
+});
+        </script>
         <script src="js/index.js"></script>
         <script id="jsbin-javascript">
         var myVideo = document.getElementById('myVideo');
@@ -356,5 +394,7 @@
         .build()
         .start();
         </script>
+        
+        
     </BODY>
 </HTML>    

@@ -215,7 +215,7 @@ li.menu-item a:hover{
 
 .battery-life{
     position:relative;
-    padding-top:150px;
+    padding-top:100px;
     max-width:1280px;
     margin:0 auto;
     height:600px;}
@@ -567,7 +567,10 @@ grid-column: 1 / 12;}
     flex-basis: 25%;
     
 } 
-
+ .perk_s  p {
+   font-size:12pt;
+ }
+        
  .perk_s h3, p {
     margin-right:60px;
     margin-top:10px;
