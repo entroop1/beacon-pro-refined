@@ -282,7 +282,6 @@ img.statue{
     width:894px;
     height:494px;
     margin-left:-15vw;
-    position:absolute;
     grid-column: 1 / 6;
     grid-row: 2;}
 
