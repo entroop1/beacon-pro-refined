@@ -1,9 +1,7 @@
 @media only screen and (max-width: 970px) {
-img {
-    display:none;}
-    
+
 html,body
-{
+{   min-height: auto;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -11,11 +9,16 @@ html,body
 }
   .wrapper  {
     overflow-x: hidden;  
-    width:90vw;
+    width:80vw;
     display:flex;
     align-items: flex-start;
     flex-direction: column;
 }
+    
+.site {
+   overflow-x: hidden; }
+    
+.site
 .site-header {
     display:none;
 }    
@@ -170,6 +173,7 @@ width: 90vw;}
     grid-column: 1 / 8;}
 
 .mount-video{
+    display:none;
     grid-column-start: 12;
     z-index:2;
     float:right;
@@ -197,20 +201,25 @@ width: 90vw;}
     box-shadow: 10px 5px 55px 0px rgba(0,0,0,0.25);}
         
 .golf{
-grid-column: 1 / 12;
+width:100%;
 overflow-x:hidden}   
         
-.golf-img{
-    display:flex;
-    justify-content: center;
-    width:100%;}
+.golf img{
+    width:100%;
+    height:auto;}
     
-    
-}
+
       
 .par{display:none;}   
         
 .apps-img{
     display:none;}   
         
+.for-developers .wrapper {
+    width:50vw;
+    background-color: #144576;
+    min-height:1500px;
+    display: block;   
     
+    
+}    
