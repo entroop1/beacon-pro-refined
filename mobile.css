@@ -4,6 +4,7 @@
     overflow-x: hidden;}
     
   .wrapper  {
+    overflow-x: hidden;  
     width:90%;
     display:flex;
     align-items: flex-start;
