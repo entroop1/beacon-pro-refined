@@ -101,7 +101,7 @@ p{
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.25); 
     height:70px;
     box-sizing:border-box;
-    max-width:100%;
+    width:100%;
     display:flex;
     align-items:center;
     align-content: space-between;}
@@ -111,7 +111,7 @@ p{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    max-width:1370px;} 
+    width:1370px;} 
 
 .logo-header{
     position:relative;
@@ -169,7 +169,7 @@ li.menu-item a:hover{
         padding-left:32px;
         padding-right:32px;
         grid-gap: 10px;
-        max-width:100%;
+        width:100%;
         margin-top: 40px;
         margin-bottom: 40px;
         padding-top:40px;
@@ -299,6 +299,7 @@ img.statue{
     grid-row: 2}
 
 .coverage-img{
+    visibility: hidden;
     width:894px;
     height:494px;
     margin-left:-15vw;
@@ -364,7 +365,7 @@ img.statue{
 
 .locator{
     margin-top:100px;
-    min-height:700px;
+    height:700px;
     }
 
 .locator-img{
@@ -516,7 +517,8 @@ grid-column: 1 / 12;}
 
 .apps{
     background-color: var(--green);
-    padding-top:100px;}
+    padding-top:100px;
+    max-width:100%;}
     
 .feature-apps{
     grid-column: 1 / 7;

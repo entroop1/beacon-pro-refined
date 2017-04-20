@@ -6,7 +6,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    background-color:lightseagreen;
 }
   .wrapper  {
     overflow-x: hidden;  
@@ -19,9 +18,7 @@ html,body
 .site {
    overflow-x: hidden; }
     
-.site{}
-    
-    
+.site
 .site-header {
     display:none;
 }    
@@ -90,8 +87,6 @@ order:3
     grid-row: 1}
 
 .coverage-img{
-        visibility: hidden;
-
     margin-top:-100px;
     order: 2
     width:894px;
@@ -232,4 +227,4 @@ overflow-x:hidden}
     display: block;   
     
     
-}   } 
+}    
