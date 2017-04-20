@@ -31,7 +31,8 @@
     
  
 .beacon-cable{
-    position:Absolute;
+    display:none;
+    position:absolute;
     z-index:2;
     float:right;
     margin-top: -150px;
@@ -190,11 +191,13 @@ width: 90vw;}
     box-shadow: 10px 5px 55px 0px rgba(0,0,0,0.25);}
         
 .golf{
-grid-column: 1 / 12;}   
+grid-column: 1 / 12;
+overflow-x:hidden}   
         
 .golf-img{
     display:flex;
-    justify-content: center;}
+    justify-content: center;
+    width:100%;}
     
     
 }
