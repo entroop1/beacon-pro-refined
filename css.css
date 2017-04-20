@@ -15,6 +15,7 @@
     --turq: #21bdb7;}
 
 body{
+    overflow-x: hidden;
     margin:0 auto;
     font-family: 'Open Sans';
     overflow-x: hidden;}
