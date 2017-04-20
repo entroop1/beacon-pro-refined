@@ -11,7 +11,8 @@
     flex-direction: column;
 }
 .site-header {
-visibility: hidden;}    
+    display:none;
+}    
   /* BATTERY */ 
     
 .battery-life{
@@ -114,11 +115,14 @@ order:3
     order:3;}
 
 .power-saving{
+    display:none;
     order:2;
     position:relative;
     height:494px;;
 ;}
-
+.shadow-box{
+    display:none;}
+    
 .power-saving img{
     width:100%;
     position:absolute;
@@ -191,6 +195,9 @@ grid-column: 1 / 12;}
 .golf-img{
     display:flex;
     justify-content: center;}
+    
+    
+}
       
     
     
