@@ -181,6 +181,9 @@ li.menu-item a:hover{
         display:flex;
         margin-top:8px;}    
         
+    .cart-form .button {
+        margin-top:0px; }    
+                
     .cart-form input {
         width:40%;
         box-sizing: border-box;    
