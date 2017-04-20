@@ -74,7 +74,8 @@ order:3
     order: 2
     width:894px;
     height:494px;
-    margin-left:-10vh;}
+    margin-left:-10vh;
+        overflow-x:hidden;}
 
 .feature-coverage{
     padding-top:0px;

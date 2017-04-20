@@ -299,6 +299,7 @@ img.statue{
     grid-row: 2}
 
 .coverage-img{
+    visibility: hidden;
     width:894px;
     height:494px;
     margin-left:-15vw;
