@@ -1,8 +1,13 @@
 @media only screen and (max-width: 970px) {
 
-.body{
-    overflow-x: hidden;}
-    
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
   .wrapper  {
     overflow-x: hidden;  
     width:90vw;
