@@ -1,4 +1,7 @@
 @media only screen and (max-width: 970px) {
+
+.body{
+    overflow-x: hidden;}
     
   .wrapper  {
     width:90%;
@@ -6,7 +9,8 @@
     align-items: flex-start;
     flex-direction: column;
 }
-    
+.site-header {
+visibility: hidden;}    
   /* BATTERY */ 
     
 .battery-life{
@@ -25,11 +29,12 @@
     
  
 .beacon-cable{
-     position:Absolute;
+    position:Absolute;
     z-index:2;
     float:right;
     margin-top: -150px;
-     padding-left:25vw;}   
+    padding-left:25vw;
+    overflow-x:hidden;}   
     
 .feature{
     margin-top:60px;}  
