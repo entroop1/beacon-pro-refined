@@ -16,9 +16,9 @@ html,body
 }
     
 .site {
-   overflow-x: hidden; }
+   overflow-x: hidden;
+    max-width:90%;}
     
-.site
 .site-header {
     display:none;
 }    
