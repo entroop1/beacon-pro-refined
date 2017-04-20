@@ -111,7 +111,7 @@ p{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    width:1370px;} 
+    max-width:1370px;} 
 
 .logo-header{
     position:relative;
@@ -169,7 +169,7 @@ li.menu-item a:hover{
         padding-left:32px;
         padding-right:32px;
         grid-gap: 10px;
-        width:100%;
+        max-width:100%;
         margin-top: 40px;
         margin-bottom: 40px;
         padding-top:40px;
@@ -365,7 +365,7 @@ img.statue{
 
 .locator{
     margin-top:100px;
-    height:700px;
+    min-height:700px;
     }
 
 .locator-img{
