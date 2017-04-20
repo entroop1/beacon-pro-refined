@@ -282,10 +282,13 @@ li.menu-item a:hover{
     flex-direction: row;
 }
 
-img.signal{
+img.signal{    max-width:100%;
+
+    
     position:absolute; }
 
-img.statue{
+img.statue{    max-width:100%;
+
     position:absolute;
 } 
 .coverage .headline{
@@ -299,8 +302,7 @@ img.statue{
     grid-row: 2}
 
 .coverage-img{
-    visibility: hidden;
-    width:894px;
+    overflow-x:hidden;
     height:494px;
     margin-left:-15vw;
     grid-column: 1 / 6;

@@ -17,7 +17,7 @@ html,body
     
 .site {
    overflow-x: hidden;
-    max-width:90%;}
+    }
     
 .site-header {
     display:none;
@@ -78,10 +78,11 @@ img.statue{
     margin-bottom:90px;}
 
 .feature{
-order:3
+    order:3
    margin-top:0px;
 
-}    
+}  
+    
 .coverage h2{
     grid-column: 7 / 12;
     grid-row: 1}
