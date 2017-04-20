@@ -22,6 +22,11 @@ html,body
 .site-header {
     display:none;
 }    
+    
+.header-nav  {
+    display:none;
+}    
+       
   /* BATTERY */ 
     
 .battery-life{
