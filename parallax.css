@@ -22,6 +22,6 @@ position:absolute;;
   transform: translateZ(0);
 }
 .beacon {
-    transform: translateZ(200px) scale(.5) ;
+    transform: translateZ(200px) scale(0.3) ;
     position:absolute;
 }
