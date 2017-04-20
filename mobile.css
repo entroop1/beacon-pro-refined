@@ -5,7 +5,7 @@
     
   .wrapper  {
     overflow-x: hidden;  
-    width:90%;
+    width:90vw;
     display:flex;
     align-items: flex-start;
     flex-direction: column;
@@ -120,6 +120,7 @@ order:3
 ;}
 
 .power-saving img{
+    width:100%;
     position:absolute;
 }
     
