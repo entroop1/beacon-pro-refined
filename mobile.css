@@ -1,9 +1,9 @@
-@media only screen and (max-width: 797px) {
     
 @import{
     url(https://fonts.googleapis.com/css?family=Open+Sans)} 
 
-    
+@media only screen and (max-width: 797px) {
+
 
 html,body
 {   min-height: auto;
@@ -107,7 +107,7 @@ order:1;}
     
 .locator-img{
 order:2;}    
-}   
+   
     
 
 .locator-img{
@@ -168,5 +168,7 @@ margin:0 auto;}
     .admin-badge{
         width:112px;
         display:flex;
-        flex-direction: column;}        
+        flex-direction: column;}  
+
+}
     
