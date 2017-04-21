@@ -88,6 +88,9 @@ order:1}
 .spacer {
     margin-top:50px;
     padding-bottom:50px;}
+    
+.spacer img{
+width:100%;}    
 
     
 /* LOCATOR */
@@ -99,6 +102,9 @@ order:1}
 .locator-img{
 margin:0 auto;}    
 
+/* SPACER */
+.spacer {
+}
 /* MOUNTING */    
 
 .mount-video{

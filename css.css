@@ -164,6 +164,7 @@ li.menu-item a:hover{
     box-sizing: border-box;}        
         
     .add-to-cart{
+        margin-right:16px;
         padding-right:32px;
         padding-left:32px;
         grid-gap: 10px;
@@ -208,6 +209,7 @@ li.menu-item a:hover{
         padding-bottom: 40px;}
 
     .certificates{
+        margin-right:16px;
         display:flex;
         justify-content: space-between;
         margin-bottom:50px;
