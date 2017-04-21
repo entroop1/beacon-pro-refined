@@ -19,15 +19,39 @@ html,body
     align-items: flex-start;
     flex-direction: column;
 }
+    
+h2 {
+    font-size:22pt;}       
 
-ul#nav-links {display:none;}    
+ul#nav-links {display:none;}   
+
+/* COVERAGE */
+.feature-coverage{
+    order:1;}
+    
+.coverage-img{
+   display:none;
+    } 
+    
+    
+ 
+    
 /* AMBIENT */
 
 .ambient{
+    padding-top:50px;
     background: linear-gradient(to right, #144576 70%,#144576 70%);} 
    
 .power-saving{
 display: none;}
+
+    
+/* SPACER */
+
+.spacer {
+margin-top:50px;
+padding-bottom:50px;}
+
     
 /* LOCATOR */
 
