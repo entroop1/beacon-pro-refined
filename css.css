@@ -32,6 +32,7 @@ body{
 /* BUTTON GENERAL */
       
 .button{
+     transition-duration: 0.4s;
     height: 40px;
     display:inline-block;
     border-radius:4px;
@@ -49,10 +50,25 @@ body{
     color: var(--green);
     height:40px;
     font-size:10pt;
-    text-transform: uppercase;
-    
-}        
+    text-transform: uppercase;    
+}    
+        
 
+.button:hover{
+    color:white;
+    transition-duration: 0.4s;
+    height: 40px;
+    display:inline-block;
+    border-radius:4px;
+    text-align:center;
+    border: 1px solid;
+    border-color: var(--green);
+    background-color: var(--green);    
+    padding-left:16px;
+    padding-right:16px;
+    }   
+      
+            
 /*TYPO*/
 
 h1 {
