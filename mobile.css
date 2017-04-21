@@ -21,12 +21,18 @@ html,body
 }
     
 h2 {
-    font-size:22pt;}       
+    font-size:22pt;
+    line-height:26pt;}  
+      
+p{
+    font-weight:200;
+    font-size:14pt;
+    color: var(--medium);}          
 
 ul#nav-links {display:none;}   
 
 .headline{
-margin-bottom:40px;}    
+margin-bottom:30px;}    
 
     
   /* Battery Life Module */
@@ -65,7 +71,7 @@ order:1}
 .ambient{
     padding-top:50px;
     background: linear-gradient(to right, #144576 70%,#144576 70%);
-    padding-bottom:50px;} 
+    padding-bottom:20px;} 
    
 .power-saving img{
     max-width:90%; 
@@ -73,15 +79,16 @@ order:1}
     
 .power-saving{
     position: relative;
-   order:2;
+    order:3;
     height:200px;}
     
 .shadow-box{
     display:none;}
  
 .feature-ambient{
+    padding-top:0px;
     margin-top:0px;
-    order:3}    
+    order:2}    
     
 /* SPACER */
 
@@ -90,17 +97,24 @@ order:1}
     padding-bottom:50px;}
     
 .spacer img{
-width:100%;}    
+    width:100%;}    
 
     
 /* LOCATOR */
 
-.layer-1, .layer-2, .layer-3{
-    display:none;}
+.locator .headline{
+order:1;}
+    
+.locator-img{
+order:2;}    
+}   
+    
 
- 
 .locator-img{
 margin:0 auto;}    
+
+.feature-locator{
+    order:3}
 
 /* SPACER */
 .spacer {
