@@ -25,7 +25,7 @@ body{
     padding-right:16px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 25%);
+    grid-template-rows: repeat(4, 50px;);
     margin:0 auto;
     align-items:center;
     max-width:1370px;} 
@@ -33,7 +33,6 @@ body{
 /* BUTTON GENERAL */
       
 .button{
-    margin-top:20px;
     height: 40px;
     display:inline-block;
     border-radius:4px;
@@ -289,25 +288,25 @@ img.statue{
     position:absolute;
 } 
 .coverage .headline{
-    margin-top:100px;
     grid-column: 7 / 12;
     grid-row: 1;
-    margin-bottom:0px;}
+    margin-bottom:90px;}
         
 .coverage h2{
     grid-column: 7 / 12;
-    grid-row: 2}
+    grid-row: 1}
 
 .coverage-img{
     width:894px;
     height:494px;
     margin-left:-15vw;
     grid-column: 1 / 6;
-    grid-row: 1/4;}
+    grid-row: 1;}
 
 .feature-coverage{
+    padding-top:150px;
     grid-column: 7  / 12;
-    grid-row: 2;
+    grid-row: 1;
 }
 
 
@@ -324,40 +323,30 @@ img.statue{
     background: linear-gradient(to right, #144576 70%,#ffffff 70%);
 }
 
-.ambient .wrapper {
-    height:700px;}
+.ambient .wrapper{
+     padding-top: 100px;}
         
 .ambient .wrapper .headline{
     position:relative;
+    height:600px;
     grid-column: 1 / 6;
-    order:1;
-    grid-row: 2;}    
+    order:1;}    
         
 .feature-ambient{
-    margin-top:70px;
     height:auto;
     grid-column: 1 / 6;
-    grid-row: 3;
+    grid-row: 1;
     order:2}
 
 .power-saving{
-    margin-top:100%;
+    display:flex;
+    flex-direction: column;
+    height:700px;
     grid-column-start: 7;
-    grid-row: 1
-}
+    grid-row: 1;}
 
-.shadow-box{
-    margin-top:5px;
-    position:absolute;
-    width:758px;
-    height:400px;
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.20);  }  
-        
-.power-saving .timeline{}    
-        
 .power-saving img{
-    position:absolute;)
-    
+    position:absolute;
 }
 
 /* LOCATOR */
@@ -387,13 +376,9 @@ img.statue{
 
 .mounting{
     background-color: var(--light);}
-  
-.mounting .headline{
-     grid-row: 2;
-}        
+        
 .feature-mounting{
-    grid-column: 1 / 8;
-    grid-row: 3;}
+    grid-column: 1 / 8;}
 
 .mount-video{
     grid-column-start: 12;
@@ -401,13 +386,11 @@ img.statue{
     float:right;
     height:450px;
     margin-top:-100px;
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.20);
-       grid-row: 1/4;}
+    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.20);}
 
 
 /* WEATHER */
 
-        
 .weather{
     padding-top:100px;
     background-color: var(--light);
@@ -417,14 +400,14 @@ img.statue{
 
 .feature-weather{
     grid-column: 4 / 12;
-    grid-row: 2;}
+    grid-row: 1;}
 
 .weather-img{
     width:624px;
     height: 450px;
     overflow:hidden;
     grid-column-start: 1;
-    grid-row: 1/4;
+    grid-row: 1;
     margin-bottom:100px;
     box-shadow: 10px 5px 55px 0px rgba(0,0,0,0.20);}
         
@@ -432,15 +415,9 @@ img.statue{
     transition: all 0.5s ease;}          
         
 .weather-img img:hover {
-    transform:scale(1.1);}
-        
-.weather .headline{
-    margin-top:10%;
-    grid-column: 4/12;
-    grid-row:1}        
+    transform:scale(1.1);}        
         
 .golf{
-background-color: var(--light);
 grid-column: 1 / 12;}   
         
 .golf-img{
@@ -474,12 +451,12 @@ grid-column: 1 / 12;}
         
 .feature-ble{
     grid-column: 3 /7;
-    grid-row: 2/4;}
+    grid-row: 1;}
 
 .ble-img{
     margin-left:50px;
     grid-column: 7 / 11;
-    grid-row: 2/4;}
+    grid-row: 1;}
         
 /* FEatures */
 
@@ -519,7 +496,7 @@ grid-column: 1 / 12;}
     padding-top:100px;}
     
 .feature-apps{
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row:1;} 
 
 .opisy-grid p{
@@ -541,7 +518,7 @@ grid-column: 1 / 12;}
     margin-top:50px;}        
         
 .apps-img{
-    grid-column: 7 / 12;
+    grid-column: 6 / 12;
     grid-row:1;}   
         
 .phones img{
@@ -551,11 +528,11 @@ grid-column: 1 / 12;}
     height:500px;} 
 
     .admin {
-        padding-top:20px;
-        margin-left:12vw;}
+        margin-top:0px;
+        margin-left:5vw;}
 
     .showcase {
-        margin-left:23vw;
+        margin-left:15vw;
         padding-top:50px;}
 
     .panel {
@@ -564,7 +541,7 @@ grid-column: 1 / 12;}
 .download-app{
     margin-top:70px;
     display:flex;
-    margin-left:17vw}
+    margin-left:9vw}
 
     .show-badge{
         width:112px;
@@ -667,12 +644,8 @@ grid-column: 1 / 12;}
 
 .headline{
     grid-column: 1 /6;
-    grid-row: 1;}
-
-.headline img{
-    margin-bottom:16px;}        
+    grid-row: 1;} 
         
 .section-icon{
     width:27px;
-    height:28px;
-}        
+    height:28px;}        
