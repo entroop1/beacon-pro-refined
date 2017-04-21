@@ -1,6 +1,9 @@
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 970px) {
+    
+@import{
+    url(https://fonts.googleapis.com/css?family=Open+Sans)} 
+
+    
 
 html,body
 {   min-height: auto;
@@ -234,9 +237,3 @@ overflow-x:hidden}
     display: block;   
     
     
-<<<<<<< HEAD
-}    
->>>>>>> parent of c15a77e... v1
-=======
-}   } 
->>>>>>> parent of f638839... v1
