@@ -16,7 +16,7 @@
 
 body{
     margin:0 auto;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;}
         
 .wrapper{
