@@ -164,10 +164,10 @@ li.menu-item a:hover{
     box-sizing: border-box;}        
         
     .add-to-cart{
-        padding-left:32px;
         padding-right:32px;
+        padding-left:32px;
         grid-gap: 10px;
-        width:100%;
+        max-width:100%;
         margin-top: 40px;
         margin-bottom: 40px;
         padding-top:40px;
@@ -234,7 +234,7 @@ li.menu-item a:hover{
 
 .battery-life{
     position:relative;
-    padding-top:100px;
+    padding-top:5%;
     max-width:1280px;
     margin:0 auto;
     min-height:500px;}
@@ -246,8 +246,8 @@ li.menu-item a:hover{
         float:left;}  
 
     .battery-chart{
-        margin-left:20%;
-        grid-column: 6 / 12;
+        margin-left:0%;
+        grid-column: 7 / 12;
         grid-row: 2;
 
         float:right;
@@ -303,7 +303,7 @@ img.statue{
     grid-row: 1;}
 
 .coverage-img{    
-    min-height:494px;
+    height:494px;
     margin-left:-15vw;
     grid-row:1/5;}
 

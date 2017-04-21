@@ -14,7 +14,7 @@ html,body
 }
   .wrapper  {
     overflow-x: hidden;  
-    width:80vw;
+    width:100vw;
     display:flex;
     align-items: flex-start;
     flex-direction: column;
@@ -25,38 +25,75 @@ h2 {
 
 ul#nav-links {display:none;}   
 
+.headline{
+margin-bottom:40px;}    
+
+    
+  /* Battery Life Module */
+   
+ .beacon-cable{ 
+    display:none;     
+    position:Absolute;
+    z-index:2;
+    float:right;
+    padding-top: 0px;
+    padding-left:15vh;}     
+
+    
+.graf {
+       width:900px;} 
+    
+.battery-chart{
+     margin-bottom:50px;}   
+    
 /* COVERAGE */
+    
 .feature-coverage{
     order:1;}
     
 .coverage-img{
-   display:none;
-    } 
+display:none;    
+margin-left:-5vw;    
+order:2;    
+} 
     
-    
- 
-    
+   
 /* AMBIENT */
-
+.ambient .headline{
+order:1}
+    
 .ambient{
     padding-top:50px;
-    background: linear-gradient(to right, #144576 70%,#144576 70%);} 
+    background: linear-gradient(to right, #144576 70%,#144576 70%);
+    padding-bottom:50px;} 
    
+.power-saving img{
+    max-width:90%; 
+    display:relative;}
+    
 .power-saving{
-display: none;}
-
+    position: relative;
+   order:2;
+    height:200px;}
+    
+.shadow-box{
+    display:none;}
+ 
+.feature-ambient{
+    margin-top:0px;
+    order:3}    
     
 /* SPACER */
 
 .spacer {
-margin-top:50px;
-padding-bottom:50px;}
+    margin-top:50px;
+    padding-bottom:50px;}
 
     
 /* LOCATOR */
 
 .layer-1, .layer-2, .layer-3{
-display:none;}
+    display:none;}
 
  
 .locator-img{
@@ -79,6 +116,42 @@ width:100%;}
             
 /* APPS */
 
+.apps-img{
+    grid-column: 7 / 12;
+    grid-row:1;}   
+        
+.phones img{
+    position:absolute;}   
+        
+.phones{   
+    height:500px;} 
+
+    .admin {
+        padding-top:20px;
+        margin-left:0vw;}
+
+    .showcase {
+        margin-left:1vw;
+        padding-top:50px;}
+
     .panel {
-        display:none;}
+        display:none;
+        margin-left:25vw;}
+
+.download-app{
+    margin-top:70px;
+    display:flex;
+    margin-left:0vw}
+
+    .show-badge{
+        width:112px;
+        display:flex;
+        flex-direction: column;
+        margin-left:3vw;
+        }        
+
+    .admin-badge{
+        width:112px;
+        display:flex;
+        flex-direction: column;}        
     
