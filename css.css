@@ -20,6 +20,8 @@ body{
     overflow-x: hidden;}
         
 .wrapper{
+    padding-left:16px;
+    padding-right:16px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 25%);
