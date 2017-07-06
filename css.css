@@ -2,18 +2,7 @@
 @import{
     url(https://fonts.googleapis.com/css?family=Open+Sans)} 
 
-        
-@keyframes bganim{
-    0% {
-        margin-left:-300vw;
-    }
-    
-    100% { 
-        margin-left:0px;
-    }
 
-} 
-    
 :root {
     --green: #62bb46;
     --navy: #144576;
@@ -334,10 +323,8 @@ img.statue{
 .ambient p{
     color: white;  
 }
-
-        
 .ambient{
-    translate:-100vw;
+    min-height: 700px;
     background: linear-gradient(to right, #144576 70%,#ffffff 70%);
 }
 
@@ -402,22 +389,6 @@ img.statue{
     grid-row: 3;
 }
 
-.beacon img {
-      transform: scale(.9);
-}
-
-
-.layer-1 {
-    margin-top:-550px;
-}
-
-.layer-2 {
-    margin-top:-360px;
-}
-
-.layer-3 {
-    margin-top:-150px;
-}
 /* SPACER */
 
 .spacer {
@@ -427,7 +398,7 @@ img.statue{
 /* MOUNTING */
         
 video{
-    max-width:100%;}
+min-width:100%;}
         
 .mounting{
     background-color: var(--light);}
@@ -436,7 +407,6 @@ video{
      grid-row: 2;
 }        
 .feature-mounting{
-    height:auto;
     grid-column: 1 / 6;
     grid-row: 3;}
 

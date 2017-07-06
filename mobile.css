@@ -120,19 +120,11 @@ margin:0 auto;}
 .spacer {
 }
 /* MOUNTING */    
-.mounting .wrapper .headline{order:1;}
-.feature-mounting{order:3;}    
-    
-.mount-video{
-    order:2;
-    float:right;
-    margin-top:0px;
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.20);
-}
 
-.weather{padding-top:0px;}
+
+  
     
-    
+.
 .weather-img img {
     width:100%;
     transition: all 0.5s ease;}          
