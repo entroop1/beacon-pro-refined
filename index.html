@@ -9,12 +9,19 @@
         <link rel="stylesheet" href="mobile.css">
         <link rel="stylesheet" href="parallax.css">
         <link rel="stylesheet" href="aos-master/dist/aos.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">        
-        <script src="vissense-0.10.0/lib/vissense.js"></script>        
-        <script src="aos-master/dist/aos.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">  
         
+        <script src="aos-master/dist/aos.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="inveiw.js"></script>
+        <script src="jquery.parallax-scroll-master/jquery.parallax-scroll-master/js/jquery.parallax-scroll.js"></script>
+        <script src="jquery.parallax-scroll-master/jquery.parallax-scroll-master/js/jquery.easing.1.3.js"></script>
+    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="isInViewport-master/lib/isInViewport.js"></script>        
+
+        <script src="BlockRevealers-master/BlockRevealers-master/js/main.js"></script>
+
 
         
     </HEAD> 
@@ -32,9 +39,7 @@
                     <img src="img/logo-2.svg" alt="kontakt.io">
                 </div>
                 <div class="header-nav">
-                    <div class="button buy">
                     <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Contact Sales</a>
-                    </div>      
                     <ul id="nav-links">
 
                         <li class="menu-item">
@@ -53,14 +58,11 @@
                         <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Why Kontakt.io</a>
                         </li>
                     </ul>
-                  
                 </div>
- 
             </div>        
         </div>    
         <div class="site">
             <div class="hero-bg">
-<<<<<<< HEAD
                 <div class="wrapper">
                      <div class="hero-img" >
                           <img src="img/landing-image.png" >
@@ -84,33 +86,16 @@
                                 <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Why Kontakt.io</a>
                                 </div>
 >>>>>>> parent of ab676e4... 111
-=======
-                    <div class="wrapper">
-                        <div class="hero-img" >
-                            <img src="img/landing-image.png" >
-                        </div>
-                        <div class="info-section">
-                            <div class="product-name"><h1>Beaco Pro</h1></div>
-                            <div class="subtitle"><h5>Bluetooth & NFC</h5></div>
-                            <div class="description">Long battery life designer for proffesionals</div>
-                            <div class="add-to-cart">
-                             <h6>QUANTITY</h6>
-                            <div class="cart-form">
-                                <input class="quantity" type="text" name="name" placeholder="3">
-                                <div class="button add">
-<a href="#" class="hvr-sweep-to-right">Sweep To Right</a>
-                                </div>
->>>>>>> parent of 3427ef5... 1
                             </div>
                             <div class="cart-price">$63.00</div>
-                            </div> 
+                        </div> 
                             <div class="certificates">
                                 <img src="img/cert/b5.png">
                                 <img src="img/cert/eddy.png">
                                 <img src="img/cert/ib.png">
                                 <img src="img/cert/phys.png">
                             </div>
-                        </div>
+                     </div>
                 </div>
             </div>
             <div class="battery-life">
@@ -122,8 +107,8 @@
                  
                     <div class="battery-chart" >
                         
-                        <div class="beacon-cable">
-                             <img src="img/beacon-cable.png"/>
+                        <div class="beacon-cable" >
+                             <img src="img/beacon-cable.png" />
                         </div>   
                         <div class="graf">
                             <div class="usb">
@@ -150,16 +135,18 @@
                         <div class="legend">
                             <div class="no-power-save">
                                 <div class="legend-color1"></div>
-                                no power saving</div>
+                                no power saving
+                            </div>
 
-                                <div class="with-power-saving">
+                            <div class="with-power-saving">
                                 <div class="legend-color2"></div>
                                  with 12h power saving</div>
-                         </div>
+                        </div>
                     </div> 
                     <div class="feature" >
                         <p>Equipped with three replaceable CR2477 batteries, the Beacon Pro can last a minimum of 5 years on standard settings.
-                            Power the Beacon Pro via the built-in micro USB for endless power supply. </p>   
+                            Power the Beacon Pro via the built-in micro USB for endless power supply. 
+                        </p>   
                         <div class="button buy">
                             <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Buy Beacon Pro</a>
                         </div>                
@@ -184,13 +171,13 @@
                         </div>
                 </div>
             </div>
-            <div class="ambient">
-                <div class="wrapper">
-                        <div class="headline">
+            <div class="ambient"  data-aos="fade-up">
+                <div class="wrapper" data-aos="fade-up">
+                        <div class="headline"  data-aos="fade-up"  >
                         <img src="img/perks/bulb.png">
                         <h2>Save battery with Ambient Light Sensor and Calendar based power saving</h2>  
                     </div>    
-                    <div class="feature-ambient">
+                    <div class="feature-ambient"  data-aos="fade-up"  data-aos-delay="200">
                     <p>Save battery power from dusk till dawn. Set an ambient light intensity threshold and let the Beacon Pro enter power saving mode when not in use. </p> 
                     </div>  
                     <div class="power-saving" data-aos="fade-up">
@@ -205,28 +192,27 @@
                 <div class="wrapper">
                     <div class="locator-img">
                         <div class="par">
-                            <div class="layer-bg phone" data-depth='0' data-type='parallax'><img src="img/flying-beacon/phone.png"></div>
-                            <div class="layer-1 beacon" data-depth='0.07 ' data-type='parallax'><img src="img/flying-beacon/1.png"></div>
-                            <div class="layer-2 beacon" data-depth='0.15' data-type='parallax'><img src="img/flying-beacon/2.png"></div>
-                            <div class="layer-3 beacon" data-depth='0.25' data-type='parallax'><img src="img/flying-beacon/3.png"></div>
+                            <div class="layer-bg phone" data-parallax='{"y" : 00 }'><img src="img/flying-beacon/phone.png"></div>
+                            <div class="layer-1 beacon" data-parallax='{"y" : -50 }'><img src="img/flying-beacon/1.png"></div>
+                            <div class="layer-2 beacon" data-parallax='{"y" : -40 }'><img src="img/flying-beacon/2.png"></div>
+                            <div class="layer-3 beacon" data-parallax='{"y" : -30 }'><img src="img/flying-beacon/3.png"></div>
                         </div>
                     </div>
-                                            <div class="headline">
-                        <img src="img/features/secure.png">
+                        <div class="headline">
+                            <img src="img/features/secure.png">
                             <h2>Beacon Locator & Updates</h2>
                         </div>
                     <div class="feature-locator">
-
-                        <p>Locate your deployed Beacon Pro by triggering its built-in LED from your smartphone. Resume the Beacon Pro firmware update process from any given point even when stopped abruptly. </p>
+                        <p>Locate your deployed Beacon Pro by triggering its built-in LED from your smartphone. Resume the Beacon Pro firmware update process from any given point even when stopped abruptly.</p>
                             <div class="button buy">
                                 <a href="https://testwebpage.kontakt.io/products-and-solutions/why-kontakt-io/">Buy Beacon Pro</a>
                             </div>                         
                     </div>
                 </div>
             </div> 
-            <div class="spacer">
+            <div id="rev-1" class="spacer">
                 <div class="wrapper" >
-                    <img src="img/spacer_1b.png"  class="office-spacer" data-aos="fade">
+                    <img src="img/spacer_1b.png"  class="office-spacer">
                 </div>
             </div>
             <div class="mounting">
@@ -238,7 +224,7 @@
                     <div class="feature-mounting">
                          <p>Perfect for large deployments, the Beacon Pro can be easily attached and detached from any surface thanks to its mounting clip. </p>
                     </div> 
-                    <div class="mount-video"  data-aos="fade" >
+                    <div class="mount-video"  data-parallax='{"y" : -80 }'>
                         <video id="myVideo">
                             <source src="img/klapka2.mp4">
                         </video>
@@ -254,8 +240,8 @@
                    <div class="feature-weather" >
                          <p>Though only the size of a tennis ball, Beacon Pro is designed to withstand the elements, making it easy to deploy anywhere. </p>
                     </div>
-                    <div class="weather-img" data-aos="fade" >
-                        <img src="img/water.png">
+                    <div class="weather-img"  data-parallax='{"y" : -80}' >
+                        <img src="img/water.png"  />
                     </div>
 
                     </div>    
@@ -403,7 +389,7 @@
             </div>
             <div class="spacer bottom">
                 <div class="wrapper" >
-                    <img src="img/close-up.png">
+                    <img src="img/close-up.png" data-parallax='{"y" : -60 }'>
                 </div>
             </div>   
             <div class="tech-spec">
